@@ -1,0 +1,18 @@
+{
+  "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169": {
+    "lastError": "2026-10-12: HTTP 202"
+  },
+  "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies": {
+    "name": "FDA - Food Allergies",
+    "hash": "8a38f0d11ab41bc3b1a1d00c3bf6b910f18ea1a913b6a3bd2d6b90e42ec59ddb",
+    "checkedAt": "2026-10-12"
+  },
+  "https://codex.fao.org/home": {
+    "name": "Codex Alimentarius",
+    "hash": "d36f741c23ba5923e3cb46ddbc9530abeb3492600e454a89a840458d914b6859",
+    "checkedAt": "2026-10-12"
+  },
+  "https://www.efsa.europa.eu/en/topics/topic/allergens": {
+    "lastError": "2026-10-12: HTTP Error 404: Not Found"
+  }
+}
