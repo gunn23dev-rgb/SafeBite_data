@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updatedAt": "2026-10-12",
   "notes": "Allergen groups follow the EU list of 14 allergens (Regulation (EU) No 1169/2011) plus lactose and added sugars. Keywords exist for Turkish and English only; other UI languages show localized names but cannot match foreign-language labels yet.",
   "sources": [
@@ -76,7 +76,18 @@
     "peut contenir",
     "puede contener",
     "puo contenere",
-    "pode conter"
+    "pode conter",
+    "traces d",
+    "traces de",
+    "pourrait contenir",
+    "peut egalement contenir",
+    "fabrique dans un atelier",
+    "atelier qui utilise",
+    "spuren von",
+    "kann enthalten",
+    "enthalt spuren",
+    "hergestellt in einem betrieb",
+    "in einem betrieb"
   ],
   "traceTrailing": [
     "içerebilir",
@@ -135,7 +146,30 @@
         "=bran",
         "farina",
         "kepeğ",
-        "irmiğ"
+        "irmiğ",
+        "=ble",
+        "=bles",
+        "froment",
+        "seigle",
+        "=orge",
+        "avoine",
+        "epeautre",
+        "semoule",
+        "boulgour",
+        "son de ble",
+        "son d avoine",
+        "weizen",
+        "*weizen",
+        "roggen",
+        "*roggen",
+        "gerste",
+        "*gerste",
+        "hafer",
+        "dinkel",
+        "*dinkel",
+        "grunkern",
+        "hartweizen",
+        "malz"
       ],
       "ambiguous": [
         "nişasta",
@@ -146,7 +180,16 @@
         "modified starch",
         "maltodextrin",
         "dextrin",
-        "flour"
+        "flour",
+        "farine",
+        "amidon",
+        "amidon modifie",
+        "maltodextrine",
+        "dextrine",
+        "mehl",
+        "starke",
+        "modifizierte starke",
+        "gries"
       ],
       "excludes": [
         "mısır nişastası",
@@ -204,7 +247,31 @@
         "gram flour",
         "pirinç kepeğ",
         "pirinç kepek",
-        "rice bran"
+        "rice bran",
+        "farine de riz",
+        "farine de mais",
+        "farine de sarrasin",
+        "farine de chataigne",
+        "farine de pois chiche",
+        "farine de coco",
+        "farine de manioc",
+        "farine sans gluten",
+        "avoine sans gluten",
+        "amidon de mais",
+        "amidon de riz",
+        "amidon de pomme de terre",
+        "amidon de tapioca",
+        "reismehl",
+        "maismehl",
+        "buchweizen",
+        "kartoffelstarke",
+        "maisstarke",
+        "reisstarke",
+        "tapiokastarke",
+        "kartoffelmehl",
+        "kokosmehl",
+        "mandelmehl",
+        "glutenfreies mehl"
       ]
     },
     {
@@ -257,7 +324,37 @@
         "lactoglobulin",
         "skimmed",
         "curd",
-        "kaymağ"
+        "kaymağ",
+        "=lait",
+        "=laits",
+        "laitier",
+        "laitiere",
+        "=creme",
+        "=cremes",
+        "fromage",
+        "yaourt",
+        "yogourt",
+        "lactoserum",
+        "caseine",
+        "lactalbumine",
+        "lactoglobuline",
+        "babeurre",
+        "=beurre",
+        "laktose",
+        "milch",
+        "*milch",
+        "kase",
+        "*kase",
+        "joghurt",
+        "jogurt",
+        "*sahne",
+        "*molke",
+        "kaseinat",
+        "quark",
+        "=rahm",
+        "butterfett",
+        "butterschmalz",
+        "butterreinfett"
       ],
       "ambiguous": [],
       "excludes": [
@@ -284,7 +381,37 @@
         "cream of tartar",
         "butternut",
         "butterfly pea",
-        "milk thistle"
+        "milk thistle",
+        "lait de coco",
+        "lait d amande",
+        "lait de soja",
+        "lait d avoine",
+        "lait de riz",
+        "lait de noisette",
+        "lait de cajou",
+        "beurre de cacao",
+        "beurre de karite",
+        "beurre de cacahuete",
+        "beurre de cacahuetes",
+        "beurre d amande",
+        "creme de tartre",
+        "creme de coco",
+        "beurre de coco",
+        "kokosmilch",
+        "mandelmilch",
+        "sojamilch",
+        "hafermilch",
+        "reismilch",
+        "haselnussmilch",
+        "cashewmilch",
+        "milchdistel",
+        "milchsaure",
+        "kakaobutter",
+        "erdnussbutter",
+        "sheabutter",
+        "mandelbutter",
+        "kokosbutter",
+        "kokoscreme"
       ]
     },
     {
@@ -325,12 +452,37 @@
         "=whey",
         "buttermilk",
         "skimmed",
-        "curd"
+        "curd",
+        "=lait",
+        "=laits",
+        "laitier",
+        "laitiere",
+        "=creme",
+        "=cremes",
+        "fromage",
+        "yaourt",
+        "yogourt",
+        "lactoserum",
+        "babeurre",
+        "laktose",
+        "milch",
+        "*milch",
+        "kase",
+        "*kase",
+        "joghurt",
+        "jogurt",
+        "*sahne",
+        "*molke",
+        "quark",
+        "=rahm"
       ],
       "ambiguous": [
         "tereyağ",
         "=butter",
-        "=ghee"
+        "=ghee",
+        "=beurre",
+        "butterfett",
+        "butterschmalz"
       ],
       "excludes": [
         "hindistan cevizi sütü",
@@ -349,7 +501,30 @@
         "peanut butter",
         "cream of tartar",
         "butternut",
-        "milk thistle"
+        "milk thistle",
+        "lait de coco",
+        "lait d amande",
+        "lait de soja",
+        "lait d avoine",
+        "lait de riz",
+        "lait de noisette",
+        "lait de cajou",
+        "beurre de cacao",
+        "beurre de cacahuete",
+        "creme de tartre",
+        "creme de coco",
+        "kokosmilch",
+        "mandelmilch",
+        "sojamilch",
+        "hafermilch",
+        "reismilch",
+        "haselnussmilch",
+        "cashewmilch",
+        "milchdistel",
+        "milchsaure",
+        "kakaobutter",
+        "erdnussbutter",
+        "kokoscreme"
       ]
     },
     {
@@ -381,13 +556,27 @@
         "albumen",
         "ovalbumin",
         "lysozyme",
-        "meringue"
+        "meringue",
+        "=oeuf",
+        "=oeufs",
+        "=ouf",
+        "=oufs",
+        "albumine",
+        "=ei",
+        "=eier",
+        "eiwei",
+        "eigelb",
+        "eipulver",
+        "eiklar",
+        "lysozym"
       ],
       "ambiguous": [
         "mayonez",
         "mayonnaise",
         "lesitin",
-        "lecithin"
+        "lecithin",
+        "lecithine",
+        "lezithin"
       ],
       "excludes": [
         "eggplant",
@@ -422,14 +611,21 @@
         "arachis",
         "peanut",
         "groundnut",
-        "goober"
+        "goober",
+        "arachide",
+        "cacahuete",
+        "*erdnus",
+        "erdnus"
       ],
       "ambiguous": [
         "fıstık",
         "fıstığ",
         "=nuts",
         "=nut",
-        "kuruyemiş"
+        "kuruyemiş",
+        "fruits a coque",
+        "nusse",
+        "=nuss"
       ],
       "excludes": [
         "antep fıstık",
@@ -478,18 +674,38 @@
         "brazil nut",
         "praline",
         "marzipan",
-        "nougat"
+        "nougat",
+        "noisette",
+        "=noix",
+        "amande",
+        "pistache",
+        "cajou",
+        "noix de pecan",
+        "noix du bresil",
+        "massepain",
+        "haselnus",
+        "walnus",
+        "mandel",
+        "pistazie",
+        "pekannus",
+        "paranus",
+        "schalenfruchte"
       ],
       "ambiguous": [
         "=nuts",
         "=nut",
-        "kuruyemiş"
+        "kuruyemiş",
+        "fruits a coque",
+        "nusse",
+        "=nuss"
       ],
       "excludes": [
         "hindistan cevizi",
         "coconut",
         "badem sütü",
-        "almond milk"
+        "almond milk",
+        "noix de coco",
+        "noix de muscade"
       ]
     },
     {
@@ -518,12 +734,15 @@
         "tempeh",
         "miso",
         "edamame",
-        "soja"
+        "soja",
+        "sojabohne"
       ],
       "ambiguous": [
         "lesitin",
         "lecithin",
-        "=e322"
+        "=e322",
+        "lecithine",
+        "lezithin"
       ],
       "excludes": [
         "soyulmuş",
@@ -571,13 +790,35 @@
         "mackerel",
         "trout",
         "haddock",
-        "levreğ"
+        "levreğ",
+        "poisson",
+        "anchois",
+        "thon",
+        "saumon",
+        "morue",
+        "cabillaud",
+        "maquereau",
+        "truite",
+        "merlu",
+        "=colin",
+        "aiglefin",
+        "fisch",
+        "*fisch",
+        "lachs",
+        "kabeljau",
+        "sardelle",
+        "makrele",
+        "forelle",
+        "hering",
+        "seelachs",
+        "anchovis"
       ],
       "ambiguous": [
         "worcestershire"
       ],
       "excludes": [
-        "fish free"
+        "fish free",
+        "tintenfisch"
       ]
     },
     {
@@ -610,7 +851,19 @@
         "lobster",
         "crayfish",
         "crustacean",
-        "langoustine"
+        "langoustine",
+        "crevette",
+        "crabe",
+        "homard",
+        "langouste",
+        "ecrevisse",
+        "crustaces",
+        "garnele",
+        "krabbe",
+        "hummer",
+        "flusskrebs",
+        "krebstiere",
+        "langustine"
       ],
       "ambiguous": [],
       "excludes": []
@@ -654,7 +907,26 @@
         "abalone",
         "whelk",
         "mollusc",
-        "mollusk"
+        "mollusk",
+        "moule",
+        "huitre",
+        "calmar",
+        "calamar",
+        "poulpe",
+        "escargot",
+        "palourde",
+        "seiche",
+        "mollusques",
+        "pieuvre",
+        "muschel",
+        "*muschel",
+        "auster",
+        "tintenfisch",
+        "kalmar",
+        "oktopus",
+        "krake",
+        "schnecke",
+        "weichtiere"
       ],
       "ambiguous": [],
       "excludes": []
@@ -682,7 +954,8 @@
         "tahin",
         "sesame",
         "tahini",
-        "sesamum"
+        "sesamum",
+        "sesam"
       ],
       "ambiguous": [
         "helva",
@@ -710,7 +983,9 @@
       },
       "keywords": [
         "hardal",
-        "mustard"
+        "mustard",
+        "moutarde",
+        "*senf"
       ],
       "ambiguous": [],
       "excludes": []
@@ -736,7 +1011,9 @@
       "keywords": [
         "kereviz",
         "celery",
-        "celeriac"
+        "celeriac",
+        "celeri",
+        "*sellerie"
       ],
       "ambiguous": [],
       "excludes": []
@@ -805,7 +1082,14 @@
         "=e225",
         "=e226",
         "=e227",
-        "=e228"
+        "=e228",
+        "anhydride sulfureux",
+        "dioxyde de soufre",
+        "sulfureux",
+        "soufre",
+        "schwefeldioxid",
+        "schwefel",
+        "sulfit"
       ],
       "ambiguous": [],
       "excludes": []
@@ -850,7 +1134,20 @@
         "honey",
         "molasses",
         "agave",
-        "şurub"
+        "şurub",
+        "sucre",
+        "sirop",
+        "saccharose",
+        "maltodextrine",
+        "miel",
+        "melasse",
+        "zucker",
+        "*zucker",
+        "glukose",
+        "fruktose",
+        "sirup",
+        "honig",
+        "agaven"
       ],
       "ambiguous": [],
       "excludes": [
