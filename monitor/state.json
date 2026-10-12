@@ -22,5 +22,10 @@
     "name": "EFSA - Food allergens",
     "hash": "b2bbea2a27d6c2c9b1a5ef5b00bfed5b6abd55a65947e1dae07669967588db12",
     "checkedAt": "2026-10-12"
+  },
+  "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en": {
+    "name": "EU food information to consumers - legislation (Reg. 1169/2011 and amendments)",
+    "hash": "00c53cc9e6c8c9296b28db1031af6ef7c13faf4a0dcda017baa6ad14a672debc",
+    "checkedAt": "2026-10-12"
   }
 }
