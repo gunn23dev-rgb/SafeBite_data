@@ -28,12 +28,28 @@ def visible_text(html: str) -> str:
     return re.sub(r"\s+", " ", text).strip().lower()
 
 
-def fetch(url: str) -> str:
-    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html"})
+def fetch(url: str, headers: dict | None = None) -> str:
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html", **(headers or {})})
     with urllib.request.urlopen(req, timeout=40) as resp:
         if resp.status != 200:
             raise RuntimeError(f"HTTP {resp.status}")
         return resp.read(5_000_000).decode("utf-8", errors="replace")
+
+
+def read_page(url: str, headers: dict | None, fallback: str | None) -> str:
+    """Visible text of `url`; if that fails, of `fallback`. Raises with both errors."""
+    errors = []
+    for candidate, extra in ((url, headers), (fallback, None)):
+        if not candidate:
+            continue
+        try:
+            text = visible_text(fetch(candidate, extra))
+            if len(text) < 500:
+                raise RuntimeError("page text too short (blocked or empty page?)")
+            return text
+        except Exception as exc:  # noqa: BLE001
+            errors.append(f"{candidate}: {exc}")
+    raise RuntimeError(" | ".join(errors))
 
 
 def main() -> None:
@@ -53,9 +69,7 @@ def main() -> None:
         url, name = src["url"], src["name"]
         entry = state.get(url, {})
         try:
-            text = visible_text(fetch(url))
-            if len(text) < 500:
-                raise RuntimeError("page text too short (blocked or empty page?)")
+            text = read_page(url, src.get("headers"), src.get("fallback"))
             digest = hashlib.sha256(text.encode("utf-8")).hexdigest()
         except Exception as exc:  # noqa: BLE001 - any failure is reported, never fatal
             failed.append((name, url, str(exc)))
