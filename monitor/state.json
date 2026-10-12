@@ -14,5 +14,13 @@
   },
   "https://www.efsa.europa.eu/en/topics/topic/allergens": {
     "lastError": "2026-10-12: HTTP Error 404: Not Found"
+  },
+  "https://publications.europa.eu/resource/celex/02011R1169": {
+    "lastError": "2026-10-12: https://publications.europa.eu/resource/celex/02011R1169: HTTP Error 404:  | https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169: HTTP 202"
+  },
+  "https://www.efsa.europa.eu/en/safe2eat/food-allergens": {
+    "name": "EFSA - Food allergens",
+    "hash": "b2bbea2a27d6c2c9b1a5ef5b00bfed5b6abd55a65947e1dae07669967588db12",
+    "checkedAt": "2026-10-12"
   }
 }
