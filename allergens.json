@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updatedAt": "2026-10-12",
   "notes": "Allergen groups follow the EU list of 14 allergens (Regulation (EU) No 1169/2011) plus lactose and added sugars. Keywords exist for Turkish and English only; other UI languages show localized names but cannot match foreign-language labels yet.",
   "sources": [
@@ -169,7 +169,21 @@
         "*dinkel",
         "grunkern",
         "hartweizen",
-        "malz"
+        "malz",
+        "*小麦",
+        "*大麦",
+        "*ライ麦",
+        "*グルテン",
+        "*밀가루",
+        "*글루텐",
+        "*보리",
+        "*호밀",
+        "*귀리",
+        "*麸质",
+        "*谷蛋白",
+        "*面粉",
+        "*黑麦",
+        "*燕麦"
       ],
       "ambiguous": [
         "nişasta",
@@ -354,7 +368,34 @@
         "=rahm",
         "butterfett",
         "butterschmalz",
-        "butterreinfett"
+        "butterreinfett",
+        "*牛乳",
+        "*乳成分",
+        "*乳糖",
+        "*乳清",
+        "*乳製品",
+        "*粉乳",
+        "*チーズ",
+        "*ヨーグルト",
+        "*ホエイ",
+        "*カゼイン",
+        "*우유",
+        "*유당",
+        "*치즈",
+        "*버터",
+        "*유청",
+        "*카제인",
+        "*분유",
+        "*요거트",
+        "*요구르트",
+        "*牛奶",
+        "*奶油",
+        "*奶酪",
+        "*芝士",
+        "*黄油",
+        "*乳制品",
+        "*奶粉",
+        "*酪蛋白"
       ],
       "ambiguous": [],
       "excludes": [
@@ -411,7 +452,14 @@
         "sheabutter",
         "mandelbutter",
         "kokosbutter",
-        "kokoscreme"
+        "kokoscreme",
+        "sütaş",
+        "sutas",
+        "pınar süt",
+        "乳化剤",
+        "乳化剂",
+        "乳酸菌",
+        "乳酸"
       ]
     },
     {
@@ -474,7 +522,27 @@
         "*sahne",
         "*molke",
         "quark",
-        "=rahm"
+        "=rahm",
+        "*乳糖",
+        "*牛乳",
+        "*乳成分",
+        "*乳製品",
+        "*粉乳",
+        "*チーズ",
+        "*ヨーグルト",
+        "*ホエイ",
+        "*유당",
+        "*우유",
+        "*치즈",
+        "*분유",
+        "*요거트",
+        "*요구르트",
+        "*牛奶",
+        "*乳制品",
+        "*奶粉",
+        "*乳清",
+        "*奶酪",
+        "*芝士"
       ],
       "ambiguous": [
         "tereyağ",
@@ -524,7 +592,14 @@
         "milchsaure",
         "kakaobutter",
         "erdnussbutter",
-        "kokoscreme"
+        "kokoscreme",
+        "sütaş",
+        "sutas",
+        "pınar süt",
+        "乳化剤",
+        "乳化剂",
+        "乳酸菌",
+        "乳酸"
       ]
     },
     {
@@ -568,7 +643,17 @@
         "eigelb",
         "eipulver",
         "eiklar",
-        "lysozym"
+        "lysozym",
+        "*卵",
+        "*たまご",
+        "*계란",
+        "*달걀",
+        "*난황",
+        "*난백",
+        "*鸡蛋",
+        "*蛋黄",
+        "*蛋粉",
+        "*蛋液"
       ],
       "ambiguous": [
         "mayonez",
@@ -615,7 +700,11 @@
         "arachide",
         "cacahuete",
         "*erdnus",
-        "erdnus"
+        "erdnus",
+        "*落花生",
+        "*ピーナッツ",
+        "*땅콩",
+        "*花生"
       ],
       "ambiguous": [
         "fıstık",
@@ -689,7 +778,27 @@
         "pistazie",
         "pekannus",
         "paranus",
-        "schalenfruchte"
+        "schalenfruchte",
+        "*アーモンド",
+        "*くるみ",
+        "*クルミ",
+        "*カシュー",
+        "*ヘーゼルナッツ",
+        "*ピスタチオ",
+        "*マカダミア",
+        "*아몬드",
+        "*호두",
+        "*캐슈",
+        "*헤이즐넛",
+        "*피스타치오",
+        "*마카다미아",
+        "*杏仁",
+        "*核桃",
+        "*腰果",
+        "*榛子",
+        "*开心果",
+        "*夏威夷果",
+        "*松子"
       ],
       "ambiguous": [
         "=nuts",
@@ -735,7 +844,15 @@
         "miso",
         "edamame",
         "soja",
-        "sojabohne"
+        "sojabohne",
+        "*大豆",
+        "*醤油",
+        "*しょうゆ",
+        "*대두",
+        "*간장",
+        "*된장",
+        "*黄豆",
+        "*酱油"
       ],
       "ambiguous": [
         "lesitin",
@@ -811,7 +928,20 @@
         "forelle",
         "hering",
         "seelachs",
-        "anchovis"
+        "anchovis",
+        "*魚",
+        "*さば",
+        "*さけ",
+        "*いわし",
+        "*생선",
+        "*어류",
+        "*멸치",
+        "*고등어",
+        "*참치",
+        "*연어",
+        "*명태",
+        "*대구",
+        "*鱼"
       ],
       "ambiguous": [
         "worcestershire"
@@ -863,7 +993,17 @@
         "hummer",
         "flusskrebs",
         "krebstiere",
-        "langustine"
+        "langustine",
+        "*えび",
+        "*エビ",
+        "*海老",
+        "*かに",
+        "*カニ",
+        "*蟹",
+        "*새우",
+        "*갑각류",
+        "*虾",
+        "*甲壳"
       ],
       "ambiguous": [],
       "excludes": []
@@ -955,7 +1095,13 @@
         "sesame",
         "tahini",
         "sesamum",
-        "sesam"
+        "sesam",
+        "*ごま",
+        "*ゴマ",
+        "*胡麻",
+        "*참깨",
+        "*참기름",
+        "*芝麻"
       ],
       "ambiguous": [
         "helva",
@@ -985,7 +1131,12 @@
         "hardal",
         "mustard",
         "moutarde",
-        "*senf"
+        "*senf",
+        "*からし",
+        "*マスタード",
+        "*겨자",
+        "*芥末",
+        "*芥子"
       ],
       "ambiguous": [],
       "excludes": []
@@ -1089,7 +1240,10 @@
         "soufre",
         "schwefeldioxid",
         "schwefel",
-        "sulfit"
+        "sulfit",
+        "*亜硫酸",
+        "*아황산",
+        "*亚硫酸"
       ],
       "ambiguous": [],
       "excludes": []
