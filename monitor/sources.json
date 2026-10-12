@@ -1,12 +1,9 @@
 [
   {
-    "name": "EU Regulation 1169/2011 (consolidated text, Annex II allergens)",
-    "url": "https://publications.europa.eu/resource/celex/02011R1169",
-    "headers": {
-      "Accept": "application/xhtml+xml, text/html;q=0.9",
-      "Accept-Language": "en"
-    },
-    "fallback": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169"
+    "name": "EU food information to consumers - legislation (Reg. 1169/2011 and amendments)",
+    "url": "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en",
+    "fallback": "https://publications.europa.eu/resource/celex/32011R1169",
+    "headers": {}
   },
   {
     "name": "FDA - Food Allergies",
