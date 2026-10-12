@@ -1,27 +1,55 @@
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-10-12",
   "notes": "Allergen groups follow the EU list of 14 allergens (Regulation (EU) No 1169/2011) plus lactose and added sugars. Keywords exist for Turkish and English only; other UI languages show localized names but cannot match foreign-language labels yet.",
   "sources": [
     {
       "title": "EFSA – European Food Safety Authority",
-      "url": "https://www.efsa.europa.eu"
+      "url": "https://www.efsa.europa.eu",
+      "role": {
+        "en": "Scientific opinions on food safety and additives in the EU; scientific background for allergen and additive information.",
+        "tr": "AB'de gıda güvenliği ve katkı maddeleri üzerine bilimsel görüşler; alerjen ve katkı maddesi bilgisinin bilimsel arka planı."
+      }
     },
     {
       "title": "EU Regulation 1169/2011 (food information to consumers)",
-      "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj"
+      "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj",
+      "role": {
+        "en": "The 14 allergens that must be declared on labels in the EU (Annex II).",
+        "tr": "AB'de etiketlerde belirtilmesi zorunlu 14 alerjen (Ek II)."
+      }
     },
     {
       "title": "FDA – Food Allergies",
-      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies"
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+      "role": {
+        "en": "The nine major food allergens in the United States (milk, eggs, fish, shellfish, tree nuts, peanuts, wheat, soy, sesame).",
+        "tr": "ABD'deki dokuz büyük gıda alerjeni (süt, yumurta, balık, kabuklu deniz ürünleri, ağaç yemişleri, yer fıstığı, buğday, soya, susam)."
+      }
+    },
+    {
+      "title": "Codex Alimentarius (FAO/WHO)",
+      "url": "https://codex.fao.org/home",
+      "role": {
+        "en": "International food standards, additive numbering (INS / E numbers) and labelling guidance.",
+        "tr": "Uluslararası gıda standartları, katkı maddesi numaraları (INS / E kodları) ve etiketleme rehberliği."
+      }
     },
     {
       "title": "Open Food Facts (barcode product data, ODbL)",
-      "url": "https://world.openfoodfacts.org"
+      "url": "https://world.openfoodfacts.org",
+      "role": {
+        "en": "Crowd-sourced barcode product data (ingredients, declared allergens).",
+        "tr": "Kitle kaynaklı barkod ürün verisi (içerikler, beyan edilen alerjenler)."
+      }
     },
     {
       "title": "T.C. Tarım ve Orman Bakanlığı",
-      "url": "https://www.tarimorman.gov.tr"
+      "url": "https://www.tarimorman.gov.tr",
+      "role": {
+        "en": "Food labelling rules in Turkey.",
+        "tr": "Türkiye'deki gıda etiketleme kuralları."
+      }
     }
   ],
   "traceLeading": [

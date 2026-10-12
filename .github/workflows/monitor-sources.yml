@@ -1,0 +1,38 @@
+name: Monthly source check
+
+# Runs on the 1st of each month. It never edits allergens.json; if an official
+# page changed (or could not be read) it opens an issue assigned to the owner,
+# and GitHub e-mails the owner about it.
+on:
+  schedule:
+    - cron: '0 6 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check sources
+        run: python3 monitor/check_sources.py
+      - name: Save state
+        run: |
+          git config user.name "safebite-monitor"
+          git config user.email "safebite-monitor@users.noreply.github.com"
+          git add monitor/state.json
+          git diff --cached --quiet || git commit -m "Update source monitor state"
+          git push
+      - name: Open issue if needed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f monitor/report.md ]; then
+            gh issue create \
+              --title "Source check $(date -u +%Y-%m): please review" \
+              --body-file monitor/report.md \
+              --assignee "${{ github.repository_owner }}"
+          fi
