@@ -5,12 +5,12 @@
   "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies": {
     "name": "FDA - Food Allergies",
     "hash": "8a38f0d11ab41bc3b1a1d00c3bf6b910f18ea1a913b6a3bd2d6b90e42ec59ddb",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-11-01"
   },
   "https://codex.fao.org/home": {
     "name": "Codex Alimentarius",
-    "hash": "d36f741c23ba5923e3cb46ddbc9530abeb3492600e454a89a840458d914b6859",
-    "checkedAt": "2026-10-12"
+    "hash": "e075a402acd1c75b04f665b83106136c5c0411f7d92e59b1ac1e6828236dd3b1",
+    "checkedAt": "2026-11-01"
   },
   "https://www.efsa.europa.eu/en/topics/topic/allergens": {
     "lastError": "2026-10-12: HTTP Error 404: Not Found"
@@ -21,11 +21,11 @@
   "https://www.efsa.europa.eu/en/safe2eat/food-allergens": {
     "name": "EFSA - Food allergens",
     "hash": "b2bbea2a27d6c2c9b1a5ef5b00bfed5b6abd55a65947e1dae07669967588db12",
-    "checkedAt": "2026-10-12"
+    "checkedAt": "2026-11-01"
   },
   "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en": {
     "name": "EU food information to consumers - legislation (Reg. 1169/2011 and amendments)",
-    "hash": "00c53cc9e6c8c9296b28db1031af6ef7c13faf4a0dcda017baa6ad14a672debc",
-    "checkedAt": "2026-10-12"
+    "hash": "e07c682f82b85e7d39788ca188651bc0cc7de4ebb478fc19391a95f173c76daa",
+    "checkedAt": "2026-11-01"
   }
 }
